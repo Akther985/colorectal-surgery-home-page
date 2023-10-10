@@ -1,0 +1,359 @@
+/*destop-leyout-*/
+@media only screen and (min-width: 1200px) and (max-width:1400px){
+    
+}
+/*laptop-leyout-*/
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .our-hero-area {
+        position: absolute;
+        display: inline-block;
+        top: 260px;
+        left: 60px;
+        right: 60px;
+    }
+    .hero__Title .hero-logo {
+        width: 10rem;
+        height: 10rem;
+        margin: 0 1rem;
+    }
+    .logo img{
+        width: 180px;
+    }
+    .manu-list {
+        padding-right: 1rem;
+    }
+    .manu-list a {
+        font-size: 12px;
+    }
+    .dropdown {
+        position: relative;
+        padding-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 1rem;
+        background-color: blanchedalmond;
+        top: -50px;
+        cursor: pointer;
+    }
+    .logo {
+        padding-top: 3rem;
+    }
+    .main-menu nav ul {
+        display: flex;
+        padding-top: 3rem;
+    }
+
+    .formHeader {
+        color: #000000;
+        font-size: 28px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+}
+
+/*tablet layout768px*/
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .our-logo {
+        width: 260px;
+        margin-top: 20px;
+    }
+.our-mobile-logo{
+    display: block;
+ }
+ .dropdown {
+    position: relative;
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0;
+    background-color: #7a99ad;
+    top: 0px;
+ }
+ .mean-container a.meanmenu-reveal {
+    top: -120px;
+}
+ .logo {
+    padding-top: 2rem;
+}
+ .dropdown .submenu li::after {
+    display: none;
+}
+.dropdown .submenu {
+    top: 40px;
+}
+.submenu li { 
+    padding: 0;
+}
+.hero-logo{
+    display: none;
+}
+.hero__Title{
+    background: none;
+    display: block;
+}
+.hero__Title {    
+    padding: 0;
+    
+}
+.heroHeader {
+    font-size: 56px;
+    padding: 5rem;
+}
+.hero-mobile-heding{
+    background-color: aqua;
+
+}
+.hero-mobile-heding {
+    background-color: #7a99ad;
+    color: #fff;
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.our-hero-area {    
+    top: 320px;
+    left: 0px; 
+     right: 0px; 
+}
+.hero-mobile-heding{
+    display: block;
+}
+.hero__Paragraph {
+    padding: 1rem 4vw;    
+}
+.our-doctor {
+    margin-top: 300px;
+}
+.our-doctor-area {
+    display: block;
+}
+.doctor-list{
+    float: top;
+}
+.doctor-info {
+    display: block;
+    text-align: center;
+}
+.doctor-img img {    
+    width: 280px;
+    
+}
+
+.doctorHighlight__Text {
+    
+    width: auto; 
+    
+}
+.dr-heding {
+    color: #000000;
+    font-size: 32px;
+    margin: 10px 0;
+}
+.doctor-list {
+    float: top;
+    padding: 50px 14rem;
+}
+.contact-information {
+    display: block;
+}
+.contact-information p{
+    font-size: 18px;
+}
+.hero-bg-img{
+    display: none;
+}
+.hero-para {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background-color: hsla(0,0%,100%,.8);
+    width: 100%;
+    right: 0;    
+    padding: 10px 20px 40px 20px;
+    top: 0;
+}
+.hero__Wrapper {
+    position: relative;
+    height: 300px;
+}
+.footer-contact{
+    display: none;
+}
+.footer-procedures{
+    display: none;
+}
+.footer-right{
+    display: none;  
+}
+.footer-location{
+    text-align: center;
+}
+.dropdown a i{
+    display: none;
+}
+.mean-container .mean-bar {
+    float: right;
+    width: 100%;
+    position: relative;
+    background: transparent;
+    padding: 4px 0;
+    min-height: 42px;
+    z-index: 999999;
+    top: 169px;
+    display: block;
+}
+
+    
+
+}
+/* mobile layout:320px*/
+@media only screen and (max-width:767px){
+    
+    .our-logo {
+        width: 260px;
+        margin-top: 20px;
+    }
+.our-mobile-logo{
+    display: block;
+ }
+ .dropdown {
+    position: relative;
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0;
+    background-color: #7a99ad;
+    top: 0px;
+ }
+ .mean-container a.meanmenu-reveal {
+    top: -120px;
+}
+ .logo {
+    padding-top: 2rem;
+}
+ .dropdown .submenu li::after {
+    display: none;
+}
+.dropdown .submenu {
+    top: 40px;
+}
+.submenu li { 
+    padding: 0;
+}
+.hero-logo{
+    display: none;
+}
+.hero__Title{
+    background: none;
+    display: block;
+}
+.hero__Title {    
+    padding: 0;
+    
+}
+.heroHeader {
+    font-size: 42px;
+    padding: 1rem;
+}
+.hero-mobile-heding{
+    background-color: aqua;
+
+}
+.hero-mobile-heding {
+    background-color: #7a99ad;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.our-hero-area {    
+    top: 320px;
+    left: 0px; 
+     right: 0px; 
+}
+.hero-mobile-heding{
+    display: block;
+}
+.hero__Paragraph {
+    padding: 1rem 4vw;    
+}
+.our-doctor {
+    margin-top: 300px;
+}
+.our-doctor-area {
+    display: block;
+}
+.doctor-list{
+    float: top;
+}
+.doctor-info {
+    display: block;
+}
+.doctor-img img {    
+    width: 280px;
+    
+}
+.doctorHighlight__Text {
+    
+    width: auto; 
+    
+}
+.dr-heding {
+    color: #000000;
+    font-size: 32px;
+    margin: 10px 0;
+}
+.doctor-list {
+    float: top;
+    padding: 0 2rem;
+}
+.contact-information {
+    display: block;
+}
+.contact-information p{
+    font-size: 18px;
+}
+.hero-bg-img{
+    display: none;
+}
+.hero-para {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background-color: hsla(0,0%,100%,.8);
+    width: 100%;
+    right: 0;    
+    padding: 10px 20px 40px 20px;
+    top: 0;
+}
+.hero__Wrapper {
+    position: relative;    
+    height: 900px;
+}
+.footer-contact{
+    display: none;
+}
+.footer-procedures{
+    display: none;
+}
+.footer-right{
+    display: none;  
+}
+.footer-location{
+    text-align: center;
+}
+.dropdown a i{
+    display: none;
+}
+
+
+
+
+}
+
+
+
