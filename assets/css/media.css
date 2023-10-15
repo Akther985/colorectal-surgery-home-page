@@ -31,9 +31,21 @@
         padding-left: 3rem;
         padding-right: 3rem;
         padding-bottom: 1rem;
-        background-color: blanchedalmond;
+        background-color: hsla(0,0%,100%,.6);
         top: -50px;
         cursor: pointer;
+    }
+    .dropdown .submenu {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        display: block;
+        top: 91px;
+        padding: 0;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        background-color: hsla(0,0%,100%,.6);
     }
     .logo {
         padding-top: 3rem;
@@ -49,6 +61,83 @@
         text-transform: uppercase;
         margin-top: 20px;
     }
+    .heroHeader {
+        margin-bottom: 20px;
+        margin-top: 320px;
+}
+    
+    .hero__Paragraph {
+        padding: 2rem 3vw;
+        background-color: #1d242b;
+        padding-left: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;        
+    }
+    .heroSanityText p {
+        margin-bottom: 0;
+        line-height: 1.25;
+        font-size: 1rem;
+    }
+    .hero__Subheader {
+        font-size: 2rem;        
+    }
+    p {
+        font-size: 1.2rem;
+        font-weight: normal;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .person h3 {        
+        font-size: 2rem;        
+    }
+    .patient-hero-Paragraph {
+        width: 100%;
+        margin-left: auto;
+        position: absolute;
+        margin-right: 0;
+        bottom: -510px;    
+        background-color: #1d242b;    
+        padding-left: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        left: 0px; 
+    }
+    .pageBody {
+        width: 100vw;
+        left: 0px;
+        margin-top: 550px;
+        padding: 0 60px;
+    }
+    .applicition-hero__Title {
+        width: 100%;
+        margin-top: 90px;
+    }
+    .formHeader {
+        color: #7a99ad;        
+    }
+    .surjary-heroHeader {
+        margin-top: 520px;
+    }
+    .surjary-about-area {
+        margin-top: -400px;
+        margin-left: 0px;
+    }
+    .repair-heroHeader {
+        margin-top: 480px;
+    }
+    .pageBody {       
+        margin-top: 0;
+        
+    }
+    .endoscopy-heroHeader {
+        margin-top: 390px;
+    }
+    .removal-about-area {
+        margin-top: 290px;
+    }
+        
+    
+    
 }
 
 /*tablet layout768px*/
@@ -204,8 +293,302 @@
     top: 169px;
     display: block;
 }
-
+/* our about page style start here  */
+.hero__CTA {
+    background-color: #7a99ad;
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.about-doctor-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.allDocs__Header {    
+    font-size: 2rem;
+    margin-top: 5rem;
     
+}
+.person {
+    display: block;
+    
+}
+.person__bio {    
+    padding: 0;    
+    font-size: 18px;
+}
+
+.person h3 {   
+    font-size: 2.8rem;
+    margin-bottom: 1rem;    
+}
+.imgWrapper-heding {    
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.our-aboutfrom-area{
+    display: block;
+}
+.our-aboutfrom-area {
+    display: block;    
+     padding: 0;
+}
+.fromimg {
+    order: 2;
+    width: 100%;
+}
+.about-from {    
+    padding: 20px;
+    width: 100%;    
+}
+.person__Brief {
+    width: 100%;
+    position: relative;
+    
+}
+.imgWrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/* our about page style start here  */
+.hero__CTA {
+    background-color: #7a99ad;
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.about-doctor-section {
+    margin-top: 220px;
+    margin-bottom: 60px;
+}
+.allDocs__Header {    
+    font-size: 2rem;
+    margin-top: 5rem;
+    
+}
+.person {
+    display: block;
+    
+}
+.person__bio {    
+    padding: 0;    
+    font-size: 18px;
+}
+
+.person h3 {   
+    font-size: 1.8rem;
+    margin-bottom: 1rem;    
+}
+.imgWrapper-heding {    
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.our-aboutfrom-area{
+    display: block;
+}
+.our-aboutfrom-area {
+    display: block;    
+     padding: 0;
+}
+.fromimg {
+    order: 2;
+    width: 100%;
+}
+.about-from {    
+    padding: 20px;
+    width: 100%;    
+}
+
+/* our contact page style here  */
+.our-contact-from {
+    display: block;
+    margin-top: -5rem;
+    width: 100%;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #fff;
+    padding: 3rem 3rem;
+}
+.our-contactarea {
+    width: 100%;    
+}
+.input--Text, .selectContainer, fieldset, select, textarea {
+    border: 0;
+    background-color: #e8e9ea;
+    display: block;
+    padding: 1rem 1rem;
+    width: 100%;    
+}
+.formHeader {
+    color: #1d242b;
+    margin-bottom: 1rem;   
+}
+.contact-heroHeader {
+    margin-top: 334px;  
+}
+.our-contact-information {
+    color: #fff;
+    padding: 20px;
+    color: #1d242b;
+}
+p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.contact-input{
+    color: #1d242b;
+}
+
+
+/* our patient section style here  */
+.patient-hero__Title {
+    position: absolute;
+    bottom: 350px;
+    left: 0px;
+}
+.patient-heroHeader{
+    font-size: 32px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+.patient-hero-Paragraph {
+    width: 100%;
+    margin-left: auto;
+    position: absolute;
+    margin-right: 0;
+    background-color: #1d242b;
+    margin-top: -15rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    left: 0px;    
+    top: 790px;
+}
+p {
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.patient-para ul li {
+    list-style: disc;
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.hero__Subheader {
+    font-size: 42px;
+}
+.pageBody {
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 450px;
+    left: 0px;
+    text-align: center;
+}
+.hero__Paragraph .sanityText p a, .pageBody__Col .sanityText a {
+    font-size: 20px;  
+    padding: 10px 16px;
+    
+}
+.button--Fill--blue {    
+    font-size: 20px;
+    padding: 10px 16px;
+    
+}
+.patient-hero__Title{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.hero__CTA a{
+    color: #fff;
+}
+
+.applicition-hero__Title {
+    width: 100%;
+    margin-top: 96px;
+}
+/* our surjary page style start here  */
+.surjary-heroHeader {    
+    font-size: 32px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    margin-top: 470px;
+}
+.surjary-about-area {
+    margin-top: -200px;
+    margin-left: 0px;
+}
+.pageBody__Col {
+    width: 100%;
+}
+.pageBody__Col2 {
+    width: 100%;
+}
+/* our repir page style here   */
+.hero__Paragraph {
+    width: 100%;
+
+}
+.hero__Subheader {
+    font-size: 22px;
+}
+.sanityText {
+    color: #fff;
+    width: 100%;
+}
+.maxWidth {
+    margin-top: 70px;
+    display: block;
+}
+.repair-heroHeader{
+    padding: 0 20px;
+}
+.hero__CTA a{
+    color: #fff;
+}
+.reapir-about-area {
+    margin-top: 0px;
+}
+/* our evlt page style here  */
+.evlt-about-area {
+    margin-top: 0px;
+}
+.maxWidth-evlt{
+    margin-top: 0;
+}
+/* our endoscopy page style here  */
+.endoscopy-about-area {
+    margin-top: 80px;
+}
+.pageBody__Header {    
+    font-size: 2rem;
+    
+}
+.endoscopy-heroHeader {
+    margin-top: 160px;
+    font-size: 32px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.surjary-formHeader{
+    font-size: 42px;
+}
+.maxWidth-removal {
+    margin-top: 0px;
+}
+.removal-heroHeader {
+    margin-top: 230px;
+}
 
 }
 /* mobile layout:320px*/
@@ -255,7 +638,7 @@
 }
 .heroHeader {
     font-size: 42px;
-    padding: 1rem;
+    padding: 0px 20px;
 }
 .hero-mobile-heding{
     background-color: aqua;
@@ -269,12 +652,12 @@
     text-align: center;
     margin-top: 1rem;
 }
+.our-hero-area {
+    top: 420px;
+    left: 0px;
+    right: 0px;
+} 
 
-.our-hero-area {    
-    top: 320px;
-    left: 0px; 
-     right: 0px; 
-}
 .hero-mobile-heding{
     display: block;
 }
@@ -282,7 +665,7 @@
     padding: 1rem 4vw;    
 }
 .our-doctor {
-    margin-top: 300px;
+    margin-top: 360px;
 }
 .our-doctor-area {
     display: block;
@@ -349,11 +732,230 @@
 .dropdown a i{
     display: none;
 }
-
-
-
-
+/* our about page style start here  */
+.hero__CTA {
+    background-color: #7a99ad;
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.about-doctor-section {
+    margin-top: 220px;
+    margin-bottom: 60px;
+}
+.allDocs__Header {    
+    font-size: 2rem;
+    margin-top: 5rem;
+    
+}
+.person {
+    display: block;
+    
+}
+.person__bio {    
+    padding: 0;    
+    font-size: 18px;
 }
 
+.person h3 {   
+    font-size: 1.8rem;
+    margin-bottom: 1rem;    
+}
+.imgWrapper-heding {    
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.our-aboutfrom-area{
+    display: block;
+}
+.our-aboutfrom-area {
+    display: block;    
+     padding: 0;
+}
+.fromimg {
+    order: 2;
+    width: 100%;
+}
+.about-from {    
+    padding: 20px;
+    width: 100%;    
+}
 
+/* our contact page style here  */
+.our-contact-from {
+    display: block;
+    margin-top: -5rem;
+    width: 100%;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #fff;
+    padding: 1rem 1rem;
+}
+.our-contactarea {
+    width: 100%;    
+}
+.input--Text, .selectContainer, fieldset, select, textarea {
+    border: 0;
+    background-color: #e8e9ea;
+    display: block;
+    padding: 1rem 1rem;
+    width: 100%;    
+}
+.formHeader {
+    color: #1d242b;
+    margin-bottom: 1rem;   
+}
+.contact-heroHeader {
+    margin-top: 175px;
+    font-size: 44px;
+    padding: 20px;
+}
+.our-contact-information {
+    color: #fff;
+    padding: 20px;
+    color: #1d242b;
+}
+p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.contact-input{
+    color: #1d242b;
+}
+/* our patient section style here  */
+.patient-hero__Title {
+    position: absolute;
+    bottom: 350px;
+    left: 0px;
+}
+.patient-heroHeader{
+    font-size: 32px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+.patient-hero-Paragraph {
+    width: 100%;
+    margin-left: auto;
+    position: absolute;
+    margin-right: 0;
+    background-color: #1d242b;
+    margin-top: -15rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    left: 0px;    
+    top: 790px;
+}
+p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.patient-para ul li {
+    list-style: disc;
+    margin-left: 40px;
+    font-size: 16px;
+}
+.hero__Subheader {
+    font-size: 28px;
+}
+.pageBody {
+    display: block;    
+    width: 100%;    
+    padding: 2rem;
+    margin-top: 450px;
+    left: 0px;
+}
+.hero__Paragraph .sanityText p a, .pageBody__Col .sanityText a {
+    font-size: 20px;  
+    padding: 10px 16px;
+    
+}
+.button--Fill--blue {    
+    font-size: 20px;
+    padding: 10px 16px;
+    
+}
+.applicition-hero__Title {
+    width: 100%;
+    margin-top: 90px;
+    margin-top: 210px;
+}
+/* our surjary page style start here  */
+.surjary-heroHeader {    
+    font-size: 32px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+.surjary-about-area {
+    margin-top: -200px;
+    margin-left: 0px;
+}
+.pageBody__Col {
+    width: 100%;
+}
+.pageBody__Col2 {
+    width: 100%;
+}
+/* our repir page style here   */
+.hero__Paragraph {
+    width: 100%;
 
+}
+.hero__Subheader {
+    font-size: 22px;
+}
+.sanityText {
+    color: #fff;
+    width: 100%;
+}
+.maxWidth {
+    margin-top: 520px;
+    display: block;
+}
+.repair-heroHeader{
+    padding: 0 20px;
+}
+.hero__CTA a{
+    color: #fff;
+}
+/* our evlt page style here  */
+.evlt-about-area {
+    margin-top: 280px;
+}
+.maxWidth-evlt{
+    margin-top: 0;
+}
+/* our endoscopy page style here  */
+.endoscopy-about-area {
+    margin-top: 520px;
+}
+.pageBody__Header {    
+    font-size: 2rem;
+    
+}
+.endoscopy-heroHeader {
+    margin-top: 160px;
+    font-size: 32px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.surjary-formHeader{
+    font-size: 42px;
+}
+.maxWidth-removal {
+    margin-top: 560px;
+}
+.removal-heroHeader{
+    font-size: 32px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+ 
+
+}

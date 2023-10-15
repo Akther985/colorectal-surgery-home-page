@@ -6,12 +6,13 @@
     font-family: questa-slab,serif;
 }
 html{
+   font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     overflow-x: hidden; 
     padding: 0;
     margin: 0;
 }
 body {
-   font-family: questa-slab,serif;
+   font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;   
     font-weight: normal;
     font-style: normal;    
     font-size: 15px;
@@ -63,22 +64,22 @@ body {
    padding-top: 5rem;
    padding-left: 5rem;
    padding-right: 5rem;
-   padding-bottom: 1rem;
-   background-color: blanchedalmond;
+   padding-bottom: 1rem;   
    top: -80px;
    cursor: pointer;
+   background-color: hsla(0,0%,100%,.6);
 }
 .dropdown .submenu {
    position: absolute;
    left: 0;
    width: 100%;
-   display: block;
-   background-color: blanchedalmond;
-   top: 120px;
+   display: block;   
+   top: 123px;
    padding: 0;
    text-align: center;
    visibility: hidden;
    opacity: 0;
+   background-color: hsla(0,0%,100%,.6);
 }
 .dropdown:hover .submenu{
    visibility: visible;
@@ -130,9 +131,9 @@ body {
 }
 .our-hero-area {
    position: absolute;
-   display: inline-block;   
+   display: inline-block;
    top: 520px;
-   left: 300px;
+   left: 200px;
    right: 300px;
 }
 .hero__Title {
@@ -151,8 +152,9 @@ body {
 .hero-mobile-heding{
    display: none;
 }
-.hero__Paragraph .sanityText {
+.sanityText {
    color: #fff;
+   width: 85%;
 }
 .heroSanityText p {    
    margin-bottom: 0;
@@ -175,7 +177,7 @@ body {
 }
 /* our doctor section start here */
 .our-doctor {
-   margin-top: 200px;
+   margin-top: 220px;
 }
 .our-doctor-area{
    display: flex;
@@ -327,14 +329,14 @@ input[type=submit] {
    margin-left: auto;
    margin-right: 0;
    display: block;
-   padding: 12px 20px;
+   padding: 12px 25px;
 }
 
 /* our hero woraper area style here */
-.hero-bg-img img{
+.hero-bg-img img {
    width: 100%;
-   height: 350px;     
-   background: cover;
+   height: 350px;   
+   object-fit: cover;
 }
 .hero-para {
    position: absolute;
@@ -386,6 +388,358 @@ input[type=submit] {
 .footer-procedures ul li{
    padding-top: 5px ;
 }
+/* about area style here  */
+.hero__CTA{
+   display: none;
+}
+.hero__Subheader{
+   font-size: 3rem;
+   color: #7a99ad;
+   text-transform: uppercase;
+   margin-bottom: 1.2rem;
+   font-family: questa-slab,serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.heroHeader{
+   margin-bottom: 20px;
+}
 
- 
+.about-doctor-section {
+   margin-top: 120px;
+   margin-bottom: 60px;
+}
+.allDocs__Header {
+   display: block;
+   width: 100%;
+   color: #7a99ad;
+   font-family: questa-slab,serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 3.5rem;
+   margin-top: 3rem;
+   margin-bottom: 1rem;
+   text-transform: uppercase;
+}
+.person h3{
+   border-top: 1px solid #1d242b;
+   padding-top: 1.6rem;
+   color: #1d242b;
+   font-size: 2.2rem;
+   font-weight: 300;
+   width: 80%;
+}
+
+.imgWrapper--Headshot img {
+   border-radius: 100%;
+   
+   display: block;
+   margin-bottom: 30px;
+   width: 280px;
+   height: 280px;
+}
+.person__Brief {
+   width: 22.7rem;
+   position: relative;
+   
+}
+.person {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   width: 100%;
+   margin-top: 60px;
+}
+.allDocs__Header {
+   font-family: questa-slab,serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 3rem;
+   margin-top: 3rem;
+   margin-bottom: 1rem;
+   text-transform: uppercase;
+}
+.person__bio {
+   width: 100%;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+.person__bio{
+   color: #456c86;
+   line-height: 1.25;
+   width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.imgWrapper-heding {
+   font-family: questa-slab,serif;
+   font-weight: 600;
+   color: #1d242b;
+   margin: 0;
+   font-size: 32px;
+}
+.fromimg{
+   order: 2;
+   width: 45%;
+}   
+
+.fromimg  {
+   max-width: 100%;
+   position: relative;
+}
+.about-from-img img{
+   width: 100%;
+}
+.about-from-img {
+   width: 100%;
+}
+
+/* about from area style here */
+.our-aboutfrom-area{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 6rem 6rem 7rem max((100vw - 106rem)/2,10vw);
+}
+.about-from {
+   order: 1;
+   padding: 0;
+   width: 45%;
+   margin-top: 0;
+}
+
+
+/* our contact page style here  */
+.contact-heroHeader{
+   margin-top: 200px;
+}
+.our-contact-from {
+   display: flex;
+   margin-top: -5rem;
+   width: calc(100vw - max((100vw - 106rem)/ 2 ,10vw));
+   margin-right: 0;
+   margin-left: auto;
+   background-color: #1d242b;
+   padding: 3rem 6rem;
+}
+.our-contactarea {
+   width: 60%;
+   margin: 0;
+}
+.our-contactarea form{
+   width: 100%;
+}
+.our-contact-information{
+   color: #fff;
+   padding: 20px;
+}
+.formHeader {
+   color: #7a99ad;
+   text-transform: uppercase;
+   font-size: 2rem;
+   font-family: questa-slab,serif;
+   font-weight: 700;
+   font-style: normal;
+   margin-bottom: 2rem;
+}
+.contact-from-btn {
+   border-radius: 0;
+   background-color: #7a99ad;
+   margin-top: 1.1rem;
+   font-family: proxima-nova,sans-serif;
+   font-size: 1.8rem;
+   color: #fff;
+   border: 0;
+   margin-left: auto;
+   margin-right: 0;
+   display: block;
+   padding: 12px 25px;
+}
+.contact-input{
+   color: #fff;
+   text-decoration: underline;
+}
+.our-contact-information{
+   margin: 20px 0;
+}
+/* our patient section style start here   */
+.our-patient-hero-section{
+   position: relative;
+   height: auto;
+   height: 900px;
+   object-fit: cover;
+   background-repeat: no-repeat;
+   z-index: -1;
+}
+.patient-hero__Title {
+   position: absolute;
+   bottom: 200px;
+   left: 200px;
+}
+.patient-hero-Paragraph {
+   width: calc(100vw - max((100vw - 106rem)/ 2 ,10vw));
+   margin-left: auto;
+   position: absolute;
+   margin-right: 0;
+   bottom: -500px;
+   padding-right: max((100vw - 106rem)/2,10vw);
+   background-color: #1d242b;
+   margin-top: -15rem;
+   padding-left: 6rem;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+   left: 200px;
+}
+.patient-para {
+   margin-bottom: 0;
+   line-height: 1.25;
+   font-size: 1.3rem;
+   color: #fff;
+}
+.hero__Subheader {
+   font-size: 2rem;
+   color: #7a99ad;
+   text-transform: uppercase;
+   margin-bottom: 1.2rem;
+   font-family: questa-slab,serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.patient-para ul li{
+   list-style: disc;
+   margin-left: 40px;
+}
+.patientInformationBody{
+   margin-top: 400px;
+}
+.pageBody{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+   position: relative;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+   width: 80vw;
+   left: 200px;
+}
+.pageBody__Header {   
+   margin-bottom: 1.2rem;
+   font-size: 3rem;
+   text-transform: uppercase;
+   font-family: questa-slab,serif;
+   font-weight: 700;
+   font-style: normal;
+   color: black;
+}
+.hero__Paragraph .sanityText p a, .pageBody__Col .sanityText a {
+   font-size: 1.8rem;
+   color: #fff;
+   border: 0;
+   background-color: #456c86;
+   padding: 1.3rem 2.6rem;
+   text-transform: uppercase;
+   text-decoration: none;
+   cursor: pointer;
+   display: inline-block;
+}
+.button--Fill--blue {
+   background-color: #456c86;
+   font-size: 1.8rem;
+    color: #fff;
+    border: 0;    
+    padding: 1.3rem 2.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* our applicition page style here  */
+.applicition-hero__Title {   
+   width: 50%;
+   margin-top: 90px;
+}
+.applicition-hero__Title .heroHeader{
+   text-transform: uppercase;
+}
+select {
+   border: 2px solid #1d242b;
+}
+
+/* our surjary page style here   */
+.surjary-heroHeader{
+   margin-top: 220px;
+   
+}
+.sanityText-p{
+   color: #000000;
+   font-size: 1.2rem;
+   font-weight: normal;
+   line-height: 26px;
+   margin-bottom: 15px;
+}
+.surjary-about-area{
+   margin-top: 140px;
+   margin-left: 100px;
+}
+.pageBody__Col  {
+   width: 55%;
+}
+.pageBody__Text {
+   margin-bottom: 3.6rem;
+   line-height: 1.25;
+   font-size: 1.2rem;
+}
+.pageBody__Col2 {
+   width: 35%;
+}
+.surjary-formHeader{
+   color: #000000;
+}
+.hero__Paragraph {
+   width: calc(100vw - max((100vw - 106rem)/ 2 ,10vw));
+   margin-left: auto;
+   margin-right: 0;
+   padding-right: max((100vw - 106rem)/2,10vw);
+}
+
+/* our reapir area style here  */
+.repair-heroHeader {
+   margin-top: 230px;
+}
+.reapir-about-area{
+   margin-top: 200px;
+}
+
+/* our evlt page style here   */
+.evlt-about-area{
+   margin-top: 200px;
+}
+/* our endoscopy page style start here  */
+.endoscopy-heroHeader{
+   margin-top: 160px;
+}
+.endoscopy-about-area{
+   margin-top: 260px;
+
+}
+.thyroid-about-area{
+   margin-top: 140px;
+}
+
+.removal-about-area{
+   margin-top: 200px;
+}
+.removal-heroHeader{
+   margin-top: 230px;
+}
+
+
 
