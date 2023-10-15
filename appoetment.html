@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colorectal-Surgery-HTML Template</title>  
+  <link rel="icon" href="assets/images/favicon.ico"/>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>   
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css"/> 
+  <link rel="stylesheet" href="assets/css/text.css"/>
+  <link rel="stylesheet" href="assets/css/meanmenu.css"/>  
+  <link rel="stylesheet" href="assets/css/style.css"/>  
+  <link rel="stylesheet" href="assets/css/media.css"/> 
+  <!-- <link rel="stylesheet" href="assets/css/media.css"/> -->
+</head>
+<body>
+  <header>    
+    <!--header-top-area-end--here-->
+    <div class="header-menu-area">
+      <div class="container-fluid">
+        <div class="menu-box">
+          <div class="row ">
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+              <div class="logo">
+                <a href="index.html"><img src="assets/images/logo3.png" alt="logo" class="our-mobile-logo"></a>
+                <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="our-logo"></a>
+              </div>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-8 col-sm-6">              
+              <div class="main-menu float-end">
+                <nav id="mobile-menu">
+                  <ul>
+                    <li class="manu-list"><a href="index.html">HOME</a></li>
+                    <li class="manu-list"><a href="about.html">ABOUT</a> </li>
+                    <li class="manu-list"><a href="contact.html">CONTACT</a></li>
+                    <li class="manu-list"><a href="patient.html">PATIENT INFORMATION</a></li>
+                    <li class="manu-list"><a href="appoetment.html">REQUEST APPOINTMENT</a></li>                     
+                    <li class="dropdown"><a  href="">PROCEDURES<i class="ddArrow" ></i></a>
+                      <ul class="submenu">
+                        <li><a href="surjary.html">COLORECTAL SURGERY</a></li>  
+                        <li><a href="repair.html">HERNIA REPAIR</a></li>
+                        <li><a href="evlt.html">EVLT</a> </li>
+                        <li><a href="vasectomy.html">VASECTOMY</a></li>
+                        <li><a href="reflux.html">ANTI-REFLUX SURGERY</a></li>
+                        <li><a href="breast.html">BREAST SURGERY</a></li>
+                        <li><a href="endoscopy.html">ENDOSCOPY AND COLONOSCOPY</a></li>
+                        <li><a href="thyroid.html">THYROID SURGERY</a></li>
+                        <li><a href="removal.html">GALLBLADDER REMOVAL</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+              </nav>
+            </div>
+            <div class="col-12 ">
+              <div class="mobile-menu"></div>
+            </div>
+          </div>            
+        </div>
+      </div>
+    </div>
+  </div>       
+  </header>
+  <!-- our header area end here -->
+  <!-- our main area start here -->
+  <main>
+    <section class="our-hero-section" style="background-image: url(assets/images/bg-apoetment.png)">
+      <div class="our-hero-area">
+        <div class="hero" >
+          <div class="heroTextContainer">
+              <div class="applicition-hero__Title" >                  
+                <h1  class="heroHeader">Request an appointment</h1>
+                  <h3 class="hero-mobile-heding"><a href="tel:337-527-6363">337-527-6363</a></h3>
+              </div>              
+            </div>
+          </div>
+      </div>
+   </section> 
+   <!-- our application area from  -->
+   <section class="our-contact-from" >
+    <div class="our-contactarea">
+      <form   netlify="" method="POST" name="Contact Us" id="Contact" netlify-honeypot="bot-field">
+        <input  type="hidden" name="form-name" value="Contact Us"> 
+        <h5  class="formHeader">
+            REQUEST AN APPOINTMENT
+        </h5>
+        <div >
+            <input  required="required" type="text" name="name" placeholder="name" class="form__Input input--Text  "> 
+            <p  class="fieldError">
+            </p>
+        </div>
+        <div >
+            <input  required="required" type="text" name="email" placeholder="email" class="form__Input input--Text  "> 
+            <p  class="fieldError">
+            </p>
+        </div>
+        <div >
+            <input  required="required" type="text" name="phone number" placeholder="phone number" class="form__Input input--Text  "> 
+            <p  class="fieldError">
+            </p>
+        </div>
+        <fieldset >
+            <label  class="fieldTitle">preferred method of communication</label> 
+            <div ><input  id="Phone" type="radio" name="preferred method of communication" placeholder="Phone" value="Phone"> <label  for="Phone">Phone</label></div>
+            <div ><input  id="Email" type="radio" name="preferred method of communication" placeholder="Email" value="Email"> <label  for="Email">Email</label></div>
+        </fieldset>
+        <fieldset >
+            <label  class="fieldTitle">new/existing patient</label> 
+            <div ><input  id="New Patient" type="radio" name="new/existing patient" placeholder="New Patient" value="New Patient"> <label  for="New Patient">New Patient</label></div>
+            <div ><input  id="Existing Patient" type="radio" name="new/existing patient" placeholder="Existing Patient" value="Existing Patient"> <label  for="Existing Patient">Existing Patient</label></div>
+        </fieldset>
+        <textarea  type="text" name="message" placeholder="message" class="form__Input input--Text input--TextArea"></textarea>
+        <div  class="selectContainer">
+            <label  for="How soon do you want to come in?" class="fieldTitle">How soon do you want to come in?</label> 
+            <select name="How soon do you want to come in?" id="How soon do you want to come in?" data-gtm-form-interact-field-id="0">
+                <option  name="Today" placeholder="Today" value="Today">
+                    TODAY
+                </option>
+                <option  name="Within a week" placeholder="Within a week" value="Within a week">
+                    WITHIN A WEEK
+                </option>
+                <option  name="Within a month" placeholder="Within a month" value="Within a month">
+                    WITHIN A MONTH
+                </option>
+            </select>
+        </div>
+        <input d type="submit" value="submit" placeholder="submit" class="contact-from-btn">
+    </form>
+    </div>
+    <div class="our-contact-information" >
+        <p >
+            Address:<br >
+            914 Cypress St, Sulphur, LA 70663
+        </p>
+        <p >
+            Telephone:<br >
+            (337) 527-6363
+        </p>
+        <p >
+            Email:<br > <a class="contact-input" href="" >info.sulphursurgical@gmail.com</a>
+        </p>
+        <p data-v-2e1bab14="">
+            Business Hours:<br >
+            Monday - Friday<br >
+            8 AM - 5 PM<br >
+        </p>
+        <p ><a class="contact-input" href="#" >Community Health Center Hours:</a><br >
+            Monday, Wednesday, Friday<br >
+            8 AM - 12 PM<br >
+        </p>
+    </div>
+</section>
+ 
+</main>
+<!-- our footer area start here -->
+<footer>
+  <div class="our-footer-area">
+    <div class="footer-img">
+      <img src="assets/images/icon2.png" alt="icon2">
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-xl-3 col-md-3 col-sm-12">
+          <div class="footer-contact">
+            <ul>
+              <li><a href="#">CONTACT US</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">PATIENT INFORMATION</a></li>
+              <li><a href="#">REQUEST APPOINTMENT</a></li>
+            </ul>                
+          </div>
+        </div>
+        <!-- end one -->
+        <div class="col-xl-3 col-md-3 col-sm-12">
+          <div class="footer-location">
+            <h3 class="footer-hr">LOCATION</h3>
+            <ul>
+              <li><a href="#">914 Cypress Street</a></li>
+              <li><a href="#">Sulphur, LA 70663</a></li>
+              <li><a href="#">337-527-6363</a></li>
+              <li><a href="#">Directions</a></li>
+            </ul>                
+          </div>              
+        </div>
+        <!-- end one -->
+        <div class="col-xl-3 col-md-3 col-sm-12">
+          <div class="footer-procedures">
+            <h3 class="footer-hr">PROCEDURES</h3>
+            <ul>
+              <li><a href="#">Colorectal surgery
+                Hernia repair
+                EVLT</a></li>
+              <li><a href="#">Anti-reflux surgery</a></li>
+              <li><a href="#">Endoscopy and colonoscopy</a></li>
+              <li><a href="#">Gallbladder Removal</a></li>
+            </ul>                
+          </div>               
+        </div>
+        <div class="col-xl-3 col-md-3 col-sm-12">
+          <div class="footer-right">
+            <ul>
+              <li><a class="footer-a" href="#">Hernia repair</a></li>
+              <li><a class="footer-a" href="#">Vasectomy</a></li>
+              <li><a class="footer-a" href="#">Breast surgery</a></li>
+              <li><a class="footer-a" href="#">Thyroid Surgery</a></li>
+            </ul>                
+          </div>               
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+  <script src="assets/js/jquery-1.12.4.min.js"></script>  
+  <script src="assets/js/bootstrap.bundle.min.js"></script> 
+  <script src="assets/js/jquery.meanmenu.min.js"></script>  
+  <script src="assets/js/popper.min.js"></script> 
+  <script src="assets/js/jquery.magnific-popup.min.js"></script> 
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html> 
